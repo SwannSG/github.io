@@ -1,0 +1,187 @@
+[
+    {"selectorType": "dropDownList",
+     "selectorLabel": "Ward data",
+     "layerType": "chloropleth",
+     "layerStyle": "default",
+     "dropdownList": [
+        { "resource": {"id": "data/ALLmerged.topojson.zip",
+            "display": "All",
+            "legendTitle": "All, females 18 years and older, population density"}
+        },
+        { "resource": {"id": "data/ECmerged.topojson.zip",
+            "display": "Eastern Cape",
+            "legendTitle": "Eastern Cape, females 18 years and older, population density"}
+        },
+        { "resource": {"id": "data/FSmerged.topojson.zip",
+            "display": "Free State",
+            "legendTitle": "Free State, females 18 years and older, population density"}
+        },
+        { "resource": {"id": "data/GTmerged.topojson.zip",
+            "display": "Gauteng",
+            "legendTitle": "Gauteng, females 18 years and older, population density"}
+        },
+        { "resource": {"id": "data/KZNmerged.topojson.zip",
+            "display": "Kwazulu-Natal",
+            "legendTitle": "Kwazulu-Natal, females 18 years and older, population density"}
+        },
+        { "resource": {"id": "data/LIMmerged.topojson.zip",
+            "display": "Limpopo",
+            "legendTitle": "Limpopo, females 18 years and older, population density"}
+        },
+        { "resource": {"id": "data/MPmerged.topojson.zip",
+            "display": "Mpumalanga",
+            "legendTitle": "Mpumalanga, females 18 years and older, population density"}
+        },
+        { "resource": {"id": "data/NCmerged.topojson.zip",
+            "display": "Northern Cape",
+            "legendTitle": "Northen Cape, females 18 years and older, population density"}
+        },
+        { "resource": {"id": "data/NWmerged.topojson.zip",
+            "display": "North West",
+            "legendTitle": "North West, females 18 years and older, population density"}
+        },
+        { "resource": {"id": "data/WCmerged.topojson.zip",
+            "display": "Western Cape",
+            "legendTitle": "Western Cape, females 18 years and older, population density"}
+        }
+    ]},
+     {"selectorType": "dropDownList",
+     "selectorLabel": "Clinics",
+     "layerType": "point",
+     "layerStyle": "c",
+     "dropdownList": [
+        { "resource": {"id": "data/ALLclinic.geojson.zip",
+            "display": "All",
+            "legendTitle": "Clinics"}
+        },
+        { "resource": {"id": "data/ECclinic.geojson.zip",
+            "display": "Eastern Cape",
+            "legendTitle": "Clinics"}
+        },
+        { "resource": {"id": "data/FSclinic.geojson.zip",
+            "display": "Free State",
+            "legendTitle": "Clinics"}
+        },
+        { "resource": {"id": "data/GTclinic.geojson.zip",
+            "display": "Gauteng",
+            "legendTitle": "Clinics"}
+        },
+        { "resource": {"id": "data/KZNclinic.geojson.zip",
+            "display": "Kwazulu-Natal",
+            "legendTitle": "Clinics"}
+        },
+        { "resource": {"id": "data/LIMclinic.geojson.zip",
+            "display": "Limpopo",
+            "legendTitle": "Clinics"}
+        },
+        { "resource": {"id": "data/MPclinic.geojson.zip",
+            "display": "Mpumalanga",
+            "legendTitle": "Clinics"}
+        },
+        { "resource": {"id": "data/NCclinic.geojson.zip",
+            "display": "Northern Cape",
+            "legendTitle": "Clinics"}
+        },
+        { "resource": {"id": "data/NWclinic.geojson.zip",
+            "display": "North West",
+            "legendTitle": "Clinics"}
+        },
+        { "resource": {"id": "data/WCclinic.geojson.zip",
+                    "display": "Western Cape",
+                    "legendTitle": "Clinics"}
+        }
+     ]},
+     {"selectorType": "dropDownList",
+     "selectorLabel": "Police",
+     "layerType": "point",
+     "layerStyle": "b",
+     "dropdownList": [
+        { "resource": {"id": "data/ALLpolice.geojson.zip",
+            "display": "All",
+            "legendTitle": "Police stations"}
+        },
+        { "resource": {"id": "data/ECpolice.geojson.zip",
+            "display": "Eastern Cape",
+            "legendTitle": "Police stations"}
+        },
+        { "resource": {"id": "data/FSpolice.geojson.zip",
+            "display": "Free State",
+            "legendTitle": "Police stations"}
+        },
+        { "resource": {"id": "data/GTpolice.geojson.zip",
+            "display": "Gauteng",
+            "legendTitle": "Police stations"}
+        },
+        { "resource": {"id": "data/KZNpolice.geojson.zip",
+            "display": "Kwazulu-Natal",
+            "legendTitle": "Police stations"}
+        },
+        { "resource": {"id": "data/LIMpolice.geojson.zip",
+            "display": "Limpopo",
+            "legendTitle": "Police stations"}
+        },
+        { "resource": {"id": "data/MPpolice.geojson.zip",
+            "display": "Mpumalanga",
+            "legendTitle": "Police stations"}
+        },
+        { "resource": {"id": "data/NCpolice.geojson.zip",
+            "display": "Northern Cape",
+            "legendTitle": "Police stations"}
+        },
+        { "resource": {"id": "data/NWpolice.geojson.zip",
+            "display": "North West",
+            "legendTitle": "Police stations"}
+        },
+        { "resource": {"id": "data/WCpolice.geojson.zip",
+                    "display": "Western Cape",
+                    "legendTitle": "Police stations"}
+        }
+    ]},
+    {"selectorType": "dropDownList",
+        "selectorLabel": "Shelters",
+        "layerType": "point",
+        "layerStyle": "a",
+        "dropdownList": [
+            { "resource": {"id": "data/ALLshelter.geojson",
+                "display": "All",
+                "legendTitle": "Woman's shelter"}
+            },
+            { "resource": {"id": "data/ECshelter.geojson",
+                "display": "Eastern Cape",
+                "legendTitle": "Woman's shelter"}
+            },
+            { "resource": {"id": "data/FSshelter.geojson",
+                "display": "Free State",
+                "legendTitle": "Woman's shelter"}
+            },
+            { "resource": {"id": "data/GTshelter.geojson",
+                "display": "Gauteng",
+                "legendTitle": "Woman's shelter"}
+            },
+            { "resource": {"id": "data/KZNshelter.geojson",
+                "display": "Kwazulu-Natal",
+                "legendTitle": "Woman's shelter"}
+            },
+            { "resource": {"id": "data/LIMshelter.geojson",
+                "display": "Limpopo",
+                "legendTitle": "Woman's shelter"}
+            },
+            { "resource": {"id": "data/MPshelter.geojson",
+                "display": "Mpumalanga",
+                "legendTitle": "Woman's shelter"}
+            },
+            { "resource": {"id": "data/NCshelter.geojson",
+                "display": "Northern Cape",
+                "legendTitle": "Woman's shelter"}
+            },
+            { "resource": {"id": "data/NWshelter.geojson",
+                "display": "North West",
+                "legendTitle": "Woman's shelter"}
+            },
+            { "resource": {"id": "data/WCshelter.geojson",
+                        "display": "Western Cape",
+                        "legendTitle": "Woman's shelter"}
+            }
+        ]
+    }
+] 
